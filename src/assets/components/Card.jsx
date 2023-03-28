@@ -11,7 +11,7 @@ const Card = ({ user }) => {
         <h1 className=" mt-5">{fullName}</h1>
         <p>Email: {user.email}</p>
         <p>
-          Genero: <span className="text-pink-500">{user.gender}</span>
+          Genero: <span className="text-white-500">{user.gender}</span>
         </p>
       </div>
     </div>

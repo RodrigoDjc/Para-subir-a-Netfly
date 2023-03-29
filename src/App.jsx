@@ -22,7 +22,6 @@ const App = () => {
   return (
     <div className="h-full flex flex-col justify-center items-center p-10">
       <Card user={user} />
-      <Card user={user} />
       <Button cambiar={cambiar} />
     </div>
   );
